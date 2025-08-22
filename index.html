@@ -1,35 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tailwind v4 Test</title>
-  
-  <!-- Tailwind CSS v4 CDN -->
-  <script src="https://cdn.tailwindcss.com/4.0.0"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    
+    <!-- ADD THIS SCRIPT TAG -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.77/Tone.js"></script>
 
-  <!-- Optional: Custom Config for v4 -->
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            brand: '#ff6363'
-          }
-        }
-      }
-    }
-  </script>
-</head>
-<body class="bg-gray-900 text-white flex items-center justify-center h-screen">
-  
-  <div class="bg-brand p-8 rounded-xl shadow-lg text-center">
-    <h1 class="text-4xl font-bold mb-4">Hello Tailwind v4 🚀</h1>
-    <p class="text-lg">If this is styled, Tailwind is working!</p>
-    <button class="mt-6 px-6 py-3 bg-white text-brand font-semibold rounded-lg shadow hover:bg-gray-200 transition">
-      Click Me
-    </button>
-  </div>
-
-</body>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

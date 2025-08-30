@@ -39,10 +39,10 @@ export default function Contact() {
         <div className="mt-10 text-center">
             <p className="text-gray-300 mb-4">Connect with me on social media:</p>
             <div className="flex justify-center gap-8">
-                <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-300 transition-colors duration-300 transform hover:scale-110">
+                <a href="https://github.com/Sumukhms" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-300 transition-colors duration-300 transform hover:scale-110">
                     <GithubIcon />
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-300 transition-colors duration-300 transform hover:scale-110">
+                <a href="https://www.linkedin.com/in/sumukh-m-s-04a1aa25b" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-300 transition-colors duration-300 transform hover:scale-110">
                     <LinkedinIcon />
                 </a>
             </div>
